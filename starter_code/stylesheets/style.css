@@ -252,3 +252,40 @@ body {
   font-size: 12px;
   margin-bottom: 40px;
 }
+
+@media (min-width: 768px) {
+  .main-header {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .main-header--heading {
+    font-size: 52px;
+    width: 65%;
+  }
+
+  .testimonials--heading {
+    text-align: center;
+  }
+
+  .sell--heading {
+    margin-bottom: 30px;
+  }
+
+  .sell-points {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    justify-content: flex-start;
+    gap: 50px;
+  }
+}
